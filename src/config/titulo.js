@@ -1,1 +1,2 @@
-module.exports = 'NOMBRE DEL COMPONENTE FORMATIVO'
+module.exports =
+  'Artefactos de seguridad para el monitoreo de seguridad orientada a aplicaciones Web'
