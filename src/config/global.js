@@ -156,7 +156,7 @@ export default {
     },
     {
       tema:
-        'El marco de conocimiento de seguridad (Security Knowledge Framework)',
+        'El marco de conocimiento de seguridad (<em>Security Knowledge Framework</em>)',
       referencia:
         'wstg: <em>The Web Security Testing Guide is a comprehensive Open Source guide to testing the security of web applications and web services</em>. (s/f).',
       tipo: 'Repositorio',
@@ -164,7 +164,7 @@ export default {
     },
     {
       tema:
-        'El marco de conocimiento de seguridad (Security Knowledge Framework)',
+        'El marco de conocimiento de seguridad (<em>Security Knowledge Framework</em>)',
       referencia:
         'Pereira, C. P. T.-D. [DavidPereira]. (2021, marzo 4). Curso de <em>Pentesting</em> a Aplicaciones WEB (Video 1) OWASP <em>Juice Shop</em>. Youtube.',
       tipo: 'Video',
@@ -172,7 +172,7 @@ export default {
     },
     {
       tema:
-        'El marco de conocimiento de seguridad (Security Knowledge Framework)',
+        'El marco de conocimiento de seguridad (<em>Security Knowledge Framework</em>)',
       referencia:
         'Tech, T. [TaggartTech]. (2021, septiembre 8). #AttackOnTuesday | OWASP ZAP/<em>Juice Shop</em>. Youtube.',
       tipo: 'Video',
