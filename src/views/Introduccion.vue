@@ -13,8 +13,8 @@
 
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/wjkhhrQN7Ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video. Artefactos de seguridad para el monitoreo de seguridad orientada a aplicaciones Web
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/B4b2zI6DSFk?si=0QKRxgJXdUVHHJXm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Artefactos de seguridad para el monitoreo de seguridad orientada a aplicaciones web
 
 </template>
 
