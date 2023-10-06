@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      'Artefactos de seguridad para el monitoreo de seguridad orientada a aplicaciones <em>Web</em>',
+      'Artefactos de seguridad para el monitoreo de seguridad orientada a aplicaciones Web',
     descripcionCurso:
-      'En esta última década el avance tecnológico impulsó a las empresas a trasladar buena parte de sus actividades y servicios hacia el mundo digital por medio de la sistematización de sus procesos a través de la creación de aplicaciones <em>web</em>. Sin embargo, pese a las ventajas adquiridas, también se contraen sus principales desventajas ligadas a los ataques cibernéticos, virus y demás afectaciones posibles del mundo <em>software</em>.',
+      'En esta última década el avance tecnológico impulsó a las empresas a trasladar buena parte de sus actividades y servicios hacia el mundo digital por medio de la sistematización de sus procesos a través de la creación de aplicaciones web. Sin embargo, pese a las ventajas adquiridas, también se contraen sus principales desventajas ligadas a los ataques cibernéticos, virus y demás afectaciones posibles del mundo <em>software</em>.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
@@ -33,44 +33,42 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Seguridad en Aplicaciones <em>Web</em>',
+        titulo: 'Seguridad en Aplicaciones Web',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema2',
         numero: '2',
         titulo:
-          'Fases para la adopción de un Plan Estratégico de Seguridad en Aplicaciones <em>Web</em>',
+          'Fases para la adopción de un Plan Estratégico de Seguridad en Aplicaciones Web',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '2.1',
             titulo:
-              'Identificación del estado actual de la Seguridad en Aplicaciones <em>Web</em>',
+              'Identificación del estado actual de la Seguridad en Aplicaciones Web',
             hash: 't_2_1',
           },
           {
             numero: '2.2',
             titulo:
-              'Definición de los objetivos de la Seguridad en Aplicaciones <em>Web</em>',
+              'Definición de los objetivos de la Seguridad en Aplicaciones Web',
             hash: 't_2_2',
           },
           {
             numero: '2.3',
             titulo:
-              'Determinación del estado deseado de la Seguridad en Aplicaciones <em>Web</em>',
+              'Determinación del estado deseado de la Seguridad en Aplicaciones Web',
             hash: 't_2_3',
           },
           {
             numero: '2.4',
-            titulo:
-              'Definición de los Indicadores en Aplicaciones <em>Web</em>',
+            titulo: 'Definición de los Indicadores en Aplicaciones Web',
             hash: 't_2_4',
           },
           {
             numero: '2.5',
-            titulo:
-              'Definición de Métricas de Seguridad en Aplicaciones <em>Web</em>',
+            titulo: 'Definición de Métricas de Seguridad en Aplicaciones Web',
             hash: 't_2_5',
           },
         ],
@@ -79,13 +77,13 @@ export default {
         nombreRuta: 'tema3',
         numero: '3',
         titulo:
-          'Ejecución del Plan Estratégico de la Seguridad en Aplicaciones <em>Web</em>',
+          'Ejecución del Plan Estratégico de la Seguridad en Aplicaciones Web',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '3.1',
             titulo:
-              'Herramientas de Monitoreo de Seguridad en Aplicaciones <em>Web</em>',
+              'Herramientas de Monitoreo de Seguridad en Aplicaciones Web',
             hash: 't_3_1',
           },
           {
@@ -201,7 +199,7 @@ export default {
     {
       termino: 'API Endpoints',
       significado:
-        'Son las URLs de un API o un backend que responden a una petición.',
+        'Son las URLs de un API o un <em>backend</em> que responden a una petición.',
     },
     {
       termino: 'API REST',
@@ -219,9 +217,9 @@ export default {
         'Es un tipo de ataque a un sistema <em>software</em> que aprovecha algún punto vulnerable que no ha sido identificado previamente.',
     },
     {
-      termino: 'Bearer Token',
+      termino: '<em>Bearer Token</em>',
       significado:
-        'Es un token de acceso seguro que contiene las credenciales de seguridad para la gestión de la sesión e identificación del usuario.',
+        'Es un <em>token</em> de acceso seguro que contiene las credenciales de seguridad para la gestión de la sesión e identificación del usuario.',
     },
     {
       termino: 'Bombas lógicas de tiempo',
@@ -306,7 +304,7 @@ export default {
     },
     {
       referencia:
-        'OWASP Zed Attack Proxy (ZAP). [En línea] 15 de mayo de 2022. [Citado el: 15 de mayo de 2022.]',
+        'OWASP <em>Zed Attack Proxy</em> (ZAP). [En línea] 15 de mayo de 2022. [Citado el: 15 de mayo de 2022.]',
       link: 'https://owasp.org/www-project-zap/',
     },
     {

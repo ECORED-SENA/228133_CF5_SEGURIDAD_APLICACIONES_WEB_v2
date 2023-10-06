@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Relacionar conceptos
-        p.mb-4 #[b Objetivo] Relación de conceptos de artefactos de seguridad para el monitoreo de seguridad orientada a aplicaciones <em>web</em>.
+        p.mb-4 #[b Objetivo] Relación de conceptos de artefactos de seguridad para el monitoreo de seguridad orientada a aplicaciones web.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center
             .col-sm.mb-3.mb-sm-0
@@ -29,7 +29,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Verdadero y Falso
-        p.mb-4 #[b Objetivo] Identificación de conceptos de artefactos de seguridad para el monitoreo de seguridad orientada a aplicaciones <em>web</em>.
+        p.mb-4 #[b Objetivo] Identificación de conceptos de artefactos de seguridad para el monitoreo de seguridad orientada a aplicaciones web.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center
             .col-sm.mb-3.mb-sm-0
