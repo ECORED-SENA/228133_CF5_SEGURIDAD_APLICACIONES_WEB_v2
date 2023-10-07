@@ -151,8 +151,7 @@ export default {
       referencia:
         '<em>OWASP Security Qualitative Metrics</em>. (s/f). Owasp.Org.',
       tipo: 'Página web',
-      link:
-        'https://owasp.org/www-project-security-qualitative-metrics/SECURITY-QUALITATIVE-METRICS',
+      link: 'https://owasp.org/www-project-security-culture/v10/8-Metrics/',
     },
     {
       tema:
@@ -305,7 +304,7 @@ export default {
     {
       referencia:
         'OWASP <em>Zed Attack Proxy</em> (ZAP). [En línea] 15 de mayo de 2022. [Citado el: 15 de mayo de 2022.]',
-      link: 'https://owasp.org/www-project-zap/',
+      link: 'https://www.zaproxy.org',
     },
     {
       referencia:

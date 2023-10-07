@@ -280,7 +280,7 @@
             p El tablero NTOP provee al administrador la oportunidad de conocer qué está sucediendo con el flujo de información entre dos dispositivos a través de los puertos TCP o UDP. Esta imagen no es estática, sino que se actualiza cada cierto espacio de tiempo especificado por NTOP; mostrando los diferentes dispositivos conectados a la red y la cantidad de datos que recibe de otros dispositivos en particular, representando cada tipo de tráfico con un color diferente.
           .col-lg-6(data-aos="fade-right")
             figure
-              img.img-t.mx-auto(src='@/assets/curso/tema3/img21.png', alt='AvatarTop')
+              img.img-t.mx-auto(src='@/assets/curso/tema3/img21b.png', alt='AvatarTop')
 
         .row.justify-content-around
           .col-lg-5.mb-4.mb-lg-0
@@ -288,7 +288,7 @@
             p Además de las segregaciones, también posee una librería que brinda un proceso de inspección profundo del flujo de información, a través de la captura, análisis y flujos de paquetes, como, por ejemplo, obtener en un marco de tiempo de hasta un año los resultados de un protocolo en particular.
           .col-lg-6
             figure.mb-4
-              img.img-t.mx-auto(src='@/assets/curso/tema3/img22.png', alt='AvatarTop')
+              img.img-t.mx-auto(src='@/assets/curso/tema3/img22.svg', alt='AvatarTop')
 
         .row.justify-content-around
           .col-lg-5
@@ -306,7 +306,7 @@
 
           .col-lg-6
             figure.mb-4
-              img.img-t.mx-auto(src='@/assets/curso/tema3/img24.png', alt='AvatarTop')
+              img.img-t.mx-auto(src='@/assets/curso/tema3/img24b.png', alt='AvatarTop')
 
     .row.mb-4(data-aos="fade-right")
       .col-lg-3.col-xl-4.col-xxl-3
