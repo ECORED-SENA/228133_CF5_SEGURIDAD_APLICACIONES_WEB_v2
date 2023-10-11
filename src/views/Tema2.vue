@@ -351,7 +351,7 @@
           .row(numero="b" titulo="Arquitectura, Diseño y Modelado de amenazas")
             .col-12.mt-2.mb-lg-0
               p  Se coloca al inicio de todos los requisitos por analizar debido al papel fundamental que juega el diseño, el modelado y la arquitectura para cualquier sistema <em>software</em>, puesto que, este define la estructuras que componen la aplicación y la forma como se comunican entre ellas, para tener la capacidad de satisfacer los atributos de calidad del sistema. Es por ello que para este elemento se debe asegurar que se cumplan estos requisitos:
-              a.anexo(:href="obtenerLink('downloads/anexos/Anexo2_LC_ArquitecturaDiseño_Tabla2.pdf')" target="_blank")
+              a.anexo(:href="obtenerLink('downloads/anexos/Anexo2_LC_ArquitecturaDisenio_Tabla2.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
