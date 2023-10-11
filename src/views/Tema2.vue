@@ -360,7 +360,7 @@
           .row(numero="c" titulo="Autenticación")
             .col-12
               p El siguiente requisito en ser verificado es el mecanismo de inicio y control del estado de la sesión de un usuario a través del método de autenticación. Este proceso es el punto de entrada a la aplicación en consecuencia asegurar este componente es la principal tarea del equipo de TI. Por este motivo, para la autenticación se debe controlar que:
-              a.anexo(:href="obtenerLink('downloads/anexos/Anexo3_LC_Autenticación_Tabla3_PDF.pdf')" target="_blank")
+              a.anexo(:href="obtenerLink('downloads/anexos/Anexo3_LC_Autenticacion_Tabla3_PDF.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -390,7 +390,7 @@
           .row(numero="f" titulo="Criptografía en el almacenamiento")
             .col-12
               p Esta verificación hace referencia a la importancia del encriptamiento de los datos más sensible dentro de una aplicación; es por ello que el sistema debe asegurar que se cumplan con:
-              a.anexo(:href="obtenerLink('downloads/anexos/Anexo6_LC_CriptografíaAlmacenamiento_Tabla6_PDF.pdf')" target="_blank")
+              a.anexo(:href="obtenerLink('downloads/anexos/Anexo6_LC_CriptografiaAlmacenamiento_Tabla6_PDF.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
