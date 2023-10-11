@@ -485,7 +485,7 @@
           figure
             img.img-t.mx-auto(src='@/assets/curso/tema1/img06.svg', alt='')
         .col-10.col-md-12.col-lg-10(data-aos="fade-right")
-          p.m-0 A partir de los anteriores, requisitos el equipo TI puede plantear la selección de ciertos KPI y métricas que luego serán validadas y aprobadas por los interesados; que le permitan posteriormente a la gerencia identificar si el plan estratégico de la seguridad en aplicaciones web ha impactado positivamente los procesos y los sistemas aportando a los objetivos del negocio.
+          p.m-0 A partir de los anteriores requisitos, el equipo TI puede plantear la selección de ciertos KPI y métricas que luego serán validadas y aprobadas por los interesados; que le permitan posteriormente a la gerencia identificar si el plan estratégico de la seguridad en aplicaciones web ha impactado positivamente los procesos y los sistemas aportando a los objetivos del negocio.
 
     .row.mb-4(data-aos="fade-right")
       .col-lg-6.col-xl-7.col-xxl-6

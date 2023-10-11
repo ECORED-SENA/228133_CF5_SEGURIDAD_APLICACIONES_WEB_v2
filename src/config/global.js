@@ -289,7 +289,7 @@ export default {
     {
       referencia:
         'Security Knowledge Framework. [En línea] 15 de mayo de 2022. [Citado el: 15 de mayo de 2022.]',
-      link: 'https://owasp.org/www-project-security-knowledge-framework/',
+      link: 'https://www.securityknowledgeframework.org',
     },
     {
       referencia:

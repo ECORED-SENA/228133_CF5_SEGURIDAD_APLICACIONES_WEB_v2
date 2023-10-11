@@ -244,11 +244,12 @@
         p Este proyecto inició su desarrollo en el año 2007 y continúa aún en vigencia exhibiendo una librería de información amplia y con múltiples protocolos de red, permitiendo su ejecución en diferentes sistemas operativos nativos, tales como linux, MacOs o Windows (Dabir, A., A. Matrawy, 2007).
         p Wireshark captura todos los paquetes del flujo de la red para luego exponerlos completamente en una interfaz gráfica de usuario con metainformación de cada dato analizado, brindándole a los administradores la oportunidad de identificar qué equipo o dispositivo está tratando de interactuar con otro, ofreciendo, además, corroborar si un paquete tiene una estructura correcta o no (Shaoqiang, W., X. DongSheng, y Y. ShiLiang, 2010).
 
-    .bg_16.p-5
+    p Esta herramienta posee una función de línea de comandos que recopila paquetes de transmisión, que posteriormente son archivados en disco para un análisis y presentación en la interfaz mencionada anteriormente. La aplicación debe ser ejecutada con un usuario administrador o en su defecto con privilegios, o en consecuencia no será capaz de visualizar las interfaces de red disponibles para análisis y monitoreo.
+    //.bg_16.p-5
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-5(data-aos="fade-right")
           p Esta herramienta posee una función de línea de comandos que recopila paquetes de transmisión, que posteriormente son archivados en disco para un análisis y presentación en la interfaz mencionada anteriormente. La aplicación debe ser ejecutada con un usuario administrador o en su defecto con privilegios, o en consecuencia no será capaz de visualizar las interfaces de red disponibles para análisis y monitoreo.
-        .col-lg-5(data-aos="fade-left")
+        //.col-lg-5(data-aos="fade-left")
           figure
             img.img-t.m-auto(src='@/assets/curso/tema3/img17b.jpg', alt='')
 
@@ -280,7 +281,7 @@
             p El tablero NTOP provee al administrador la oportunidad de conocer qué está sucediendo con el flujo de información entre dos dispositivos a través de los puertos TCP o UDP. Esta imagen no es estática, sino que se actualiza cada cierto espacio de tiempo especificado por NTOP; mostrando los diferentes dispositivos conectados a la red y la cantidad de datos que recibe de otros dispositivos en particular, representando cada tipo de tráfico con un color diferente.
           .col-lg-6(data-aos="fade-right")
             figure
-              img.img-t.mx-auto(src='@/assets/curso/tema3/img21b.png', alt='AvatarTop')
+              img.img-t.mx-auto(src='@/assets/curso/tema3/img21b.png', alt='')
 
         .row.justify-content-around
           .col-lg-5.mb-4.mb-lg-0
@@ -288,7 +289,7 @@
             p Además de las segregaciones, también posee una librería que brinda un proceso de inspección profundo del flujo de información, a través de la captura, análisis y flujos de paquetes, como, por ejemplo, obtener en un marco de tiempo de hasta un año los resultados de un protocolo en particular.
           .col-lg-6
             figure.mb-4
-              img.img-t.mx-auto(src='@/assets/curso/tema3/img22.svg', alt='AvatarTop')
+              img.img-t.mx-auto(src='@/assets/curso/tema3/img22.svg', alt='')
 
         .row.justify-content-around
           .col-lg-5
@@ -296,7 +297,7 @@
             p NTOP usa la librería <em><b>libcap</b></em> que permite la captura de paquetes en distintos sistemas operativos, logrando que su código fuente sea el mismo haciendo que la herramienta sea portable. Además, el almacenamiento en <em>búfer</em> de los paquetes reduce la pérdida en caso de ráfagas de tráfico lo que brinda fiabilidad al momento de analizar los datos; los cuales son procesados una a la vez. La metainformación de los dispositivos se almacena en las tablas <em>hash</em> como datos de entrada y salida ordenados acorde con los protocolos de red; por último, NTOP presenta una gran cantidad de filtros almacenados y se aplican directamente al tráfico capturado.
           .col-lg-6
             figure.mb-4
-              img.img-t.mx-auto(src='@/assets/curso/tema3/img23.png', alt='AvatarTop')
+              img.img-t.mx-auto(src='@/assets/curso/tema3/img23.png', alt='')
 
         .row.justify-content-around
           .col-lg-5
@@ -306,7 +307,7 @@
 
           .col-lg-6
             figure.mb-4
-              img.img-t.mx-auto(src='@/assets/curso/tema3/img24b.png', alt='AvatarTop')
+              img.img-t.mx-auto(src='@/assets/curso/tema3/img24b.png', alt='')
 
     .row.mb-4(data-aos="fade-right")
       .col-lg-3.col-xl-4.col-xxl-3
@@ -350,16 +351,16 @@
           ul.lista-ul--color
             li.ms-2.m-0
               i.fas.fa-check-circle
-              | Filtro rápido.
+              span Filtro rápido.
             li.ms-2.m-0
               i.fas.fa-check-circle
-              | Palabras clave.
+              span Palabras clave.
             li.ms-2.m-0
               i.fas.fa-check-circle
-              | Filtro de sesión.
+              span Filtro de sesión.
             li.ms-2.m-0
               i.fas.fa-check-circle
-              | Filtro de vista.
+              span Filtro de vista.
           p Cada uno de estos realiza una tarea única y la herramienta brinda al usuario la opción de descifrar datos con los protocolos Transport Layer Security (TLS) y Secure Sockets Layer (SSL).
 
       .col-lg-6.col-xl-5.col-xxl-6.mb-5.mb-lg-0
