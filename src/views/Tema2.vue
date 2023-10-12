@@ -14,7 +14,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-left")
         figure
-          img.img-t.m-auto(src='@/assets/curso/tema2/img01.svg', alt='')
+          img.img-t.m-auto(src='@/assets/curso/tema2/img01.svg', alt='Imagen que presenta las fases para la adopción de un Plan Estratégico de Seguridad en Aplicaciones Web.')
 
     p A continuación, se describe el objetivo de cada fase, los artefactos de entrada, de salida y actividades a ejecutar para cumplir cada uno de ellos.
 
@@ -121,7 +121,7 @@
         LineaTiempoD.color-acento-contenido
           p.mt-3(numero="1" titulo="Nivel 1 (Oportunista)") Para una organización, el nivel oportunista es muy apropiado si tiene sistemas donde la información capturada requiere de un nivel bajo de confiabilidad e integridad, donde la falta o pérdida de algunos de estos datos no impacte inminentemente el proceso o flujo de la aplicación.<br><br> Este nivel proporciona a la gerencia un análisis rápido al ecosistema de aplicaciones que posean o les permite elaborar una lista de requerimientos en seguridad de aplicaciones que hacen parte de un plan estratégico de seguridad realizado en fases.
 
-          p.mt-3(numero="2" titulo="Nivel 2 (Estándar) ") El nivel dos del ASVS tiene como premisa asegurar que dentro de las organizaciones se conozcan y existan controles de seguridad en las aplicaciones ubicados en lugar correspondiente y con el mayor porcentaje de efectividad.<br><br> Las aplicaciones que deben estar a este nivel por lo general realizan transacciones comerciales entre organizaciones conocidas como <b>negocio a negocio (business-to-business, B2B)</b>, sistemas de gestión de información del área de la salud, aplicaciones que implementan operaciones sensibles para el negocio o mantienen otros activos sensibles de terceros.
+          p.mt-3(numero="2" titulo="Nivel 2 (Estándar) ") El nivel dos del ASVS tiene como premisa asegurar que dentro de las organizaciones se conozcan y existan controles de seguridad en las aplicaciones ubicados en lugar correspondiente y con el mayor porcentaje de efectividad.<br><br> Las aplicaciones que deben estar a este nivel por lo general realizan transacciones comerciales entre organizaciones conocidas como <b>negocio a negocio (#[em business-to-business], B2B)</b>, sistemas de gestión de información del área de la salud, aplicaciones que implementan operaciones sensibles para el negocio o mantienen otros activos sensibles de terceros.
 
           p.mt-3(numero="3" titulo="Nivel 3 (Avanzado) ") Las aplicaciones a este nivel deben estar modularizadas considerablemente buscando facilitar la respuesta rápida ante fallos, la escalabilidad y una defensa coral construida de varias capas de seguridad. Cada módulo podría estar separado físicamente o en diferente conexión de red, a fin de lograr que por sí mismos se responsabilicen por la seguridad, estando todo debidamente documentado.<br><br> Dentro de las responsabilidades obligatoriamente se incluyen controles que certifican la confidencialidad a través del cifrado de los datos, la integridad transaccional, la validación de entradas, el manejo de auditorías en capa de persistencia, entre otros.
 
@@ -398,7 +398,7 @@
 
           .row(numero="g" titulo="Gestión y registro de errores")
             .col-12
-              p La gestión y registro de errores en log, tiene como objetivo proporcionar un mecanismo reactivo de respuesta a incidentes para los usuarios, administradores y equipos de TI, creando registros de log bastante significativos para los desarrolladores proporcionando datos útiles y sin agregar ruido innecesario. Los datos almacenados en el log deben presentar una cobertura acorde a las reglamentaciones y leyes dispuestas por el país ante los temas de privacidad de la información o directivas similares y se debe garantizar que se gestiona de forma segura. Es por ello que la aplicación debe contar con:
+              p La gestión y registro de errores en #[em log], tiene como objetivo proporcionar un mecanismo reactivo de respuesta a incidentes para los usuarios, administradores y equipos de TI, creando registros de #[em log] bastante significativos para los desarrolladores proporcionando datos útiles y sin agregar ruido innecesario. Los datos almacenados en el #[em log] deben presentar una cobertura acorde a las reglamentaciones y leyes dispuestas por el país ante los temas de privacidad de la información o directivas similares y se debe garantizar que se gestiona de forma segura. Es por ello que la aplicación debe contar con:
               a.anexo(:href="obtenerLink('downloads/anexos/Anexo7_LC_GestionRegistroErrores_Tabla7_PDF.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
@@ -497,8 +497,8 @@
         figure(data-aos="fade-right")
           img.img-t.mx-auto(src='@/assets/curso/tema2/img22.png')
       .col-lg-9(data-aos="fade-left")
-        p Para afirmar que un proceso, servicio o producto mejora durante la ejecución de un plan, es necesario que existan mediciones que permitan evaluar, comparar y contrastar resultados a fin de respaldar esta declaración (G. V. Ríos, John A. Bohada e I. A. Delgado, 2018). Por esta razón, el área de TI durante la fase de “Definición de los Indicadores y Métricas de la Seguridad en Aplicaciones Web”, del plan estratégico, debe centrar sus esfuerzos en identificar los KPI y las métricas asociadas a ellos para brindar a los stakeholders un conjunto de herramientas e información puntual que les permitirá tomar decisiones y realizar acciones proactivas/reactivas frente a los objetivos del negocio y el direccionamiento estratégico de la organización.
-        p Ahora bien, antes de identificarlos es importante entender y diferenciar un KPI de una métrica para que el proceso de establecer ambos elementos sea exitoso:
+        p Para afirmar que un proceso, servicio o producto mejora durante la ejecución de un plan, es necesario que existan mediciones que permitan evaluar, comparar y contrastar resultados a fin de respaldar esta declaración (G. V. Ríos, John A. Bohada e I. A. Delgado, 2018). Por esta razón, el área de TI durante la fase de “Definición de los Indicadores y Métricas de la Seguridad en Aplicaciones Web”, del plan estratégico, debe centrar sus esfuerzos en identificar los KPI y las métricas asociadas a ellos para brindar a los #[em stakeholders] un conjunto de herramientas e información puntual que les permitirá tomar decisiones y realizar acciones proactivas/reactivas frente a los objetivos del negocio y el direccionamiento estratégico de la organización.
+        p Ahora bien, antes de identificarlos es importante entender y diferenciar un KPI de una métrica, para que el proceso de establecer ambos elementos sea exitoso:
 
     .row.justify-content-center.mb-5
       .col-lg-5.mb-5.mb-lg-0
@@ -526,9 +526,9 @@
         .bg_11.p-4
           .row.justify-content-center
             .col-lg-11
-              p Está relacionado al éxito de cada uno de los objetivos propuestos por una organización. En concreto un indicador se alinea al plan propuesto por la alta gerencia, por ejemplo, la tasa de crecimiento de los ingresos, el porcentaje de disponibilidad de la aplicación, o el tiempo de respuesta después de un fallo, entre otros.
+              p Está relacionado con el éxito de cada uno de los objetivos propuestos por una organización. En concreto, un indicador se alinea al plan propuesto por la alta gerencia, por ejemplo, la tasa de crecimiento de los ingresos, el porcentaje de disponibilidad de la aplicación, o el tiempo de respuesta después de un fallo, entre otros.
 
-    p Para establecer los KPI para el plan estratégico de seguridad en aplicaciones web que se van a estar monitoreando se pueden seguir algunos consejos simples que lo facilitan:
+    p Para establecer los KPI para el plan estratégico de seguridad en aplicaciones web que se van a estar monitoreando, se pueden seguir algunos consejos simples que lo facilitan:
 
     .row
       .col-lg-12
@@ -600,7 +600,7 @@
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
         h2 2.5 Definición de Métricas de Seguridad en Aplicaciones Web
 
-    p Como se indicó anteriormente, los KPI necesitan de ciertas métricas para su confección y refinamiento; sin embargo, está claro que se puede seleccionar cualquier variable de la gran cantidad que pueden generar una programa sobre el ecosistema de temas en seguridad; por esta razón, es pertinente aclarar cómo se debe establecer si una métrica está acorde a lo que se necesita para el plan estratégico de seguridad de las aplicaciones web. Así, las características más sobresalientes de las métricas son:
+    p Como se indicó anteriormente, los KPI necesitan de ciertas métricas para su confección y refinamiento; sin embargo, está claro que se puede seleccionar cualquier variable de la gran cantidad que pueden generar un programa sobre el ecosistema de temas en seguridad; por esta razón, es pertinente aclarar cómo se debe establecer si una métrica está acorde a lo que se necesita para el plan estratégico de seguridad de las aplicaciones web. Así, las características más sobresalientes de las métricas son:
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-down")
       .tarjeta-avatar
@@ -693,8 +693,8 @@
           .col-lg-5.mb-4.mb-lg-0
             h4 Métricas de <em>software</em>
             p Las métricas que tienen como finalidad el <em>software</em> tienen una dependencia directa del ciclo de vida de la construcción de aplicaciones y la arquitectura, el diseño y el modelado del <em>software</em>. Las organizaciones deben documentar sus métricas en un formato estándar para asegurar la aplicación del modelo, adaptación, recopilación y presentación de informes.
-            p Ver ejemplo de documentación de un indicador para prevenir código malicioso y el respectivo proceso de cálculo de su métrica asociada:
-            a.anexo(:href="obtenerLink('downloads/anexos/Anexo15_Documentaciontabla_Tabla15.pdf')" target="_blank")
+            //p Ver ejemplo de documentación de un indicador para prevenir código malicioso y el respectivo proceso de cálculo de su métrica asociada:
+            //a.anexo(:href="obtenerLink('downloads/anexos/Anexo15_Documentaciontabla_Tabla15.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto

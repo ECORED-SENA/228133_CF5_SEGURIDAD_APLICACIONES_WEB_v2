@@ -152,7 +152,7 @@
       .col-auto(data-aos="fade-down")
         .verticalLine.d-none.d-lg-block
       .col-lg-8(data-aos="fade-left")
-        p ZAP es una herramienta de código abierto de fácil uso, flexible, extensible y gratuita mantenida por el esfuerzo conjunto del OWASP, que permite realizar pruebas de penetración para aplicaciones web. La aplicación actúa como un proxy ubicándose entre el navegador y el sistema a testear para la búsqueda de vulnerabilidades; con el fin de interceptar e inspeccionar los mensajes enviados entre estos dos y con la disponibilidad de realizar cambios en el contenido de este y re-enviarlo al destino.
+        p ZAP es una herramienta de código abierto de fácil uso, flexible, extensible y gratuita mantenida por el esfuerzo conjunto del OWASP, que permite realizar pruebas de penetración para aplicaciones web. La aplicación actúa como un #[em proxy] ubicándose entre el navegador y el sistema a testear para la búsqueda de vulnerabilidades; con el fin de interceptar e inspeccionar los mensajes enviados entre estos dos y con la disponibilidad de realizar cambios en el contenido de este y re enviarlo al destino.
         p Además ofrecen la opción de escaneo automatizado para una gran variedad de niveles de verificación ASVS y contiene otras herramientas para encontrar vulnerabilidades de seguridad manualmente. Esta aplicación ofrece al público versiones para los distintos sistemas operativos y también se puede usar a través de <em>docker</em>; otras opciones adicionales y complementos son posible descargarlos gratuitamente desde el <b>ZAP <em>Marketplace</em>.</b> Por último, la herramienta permite a los desarrolladores usarla como aplicación independiente o como un proceso que corre en <em>background</em> en el sistema operativo. (OWASP <em>Zed Attack Proxy</em>, 2022).
 
     .bg_15.p-4.mb-5
@@ -166,12 +166,12 @@
     .row.mb-4(data-aos="fade-right")
       .col-lg-3.col-xl-4.col-xxl-3
         .bg_2.p-2
-          p.text-bold.m-0.ms-3 OWASP Juice Shop
+          p.text-bold.m-0.ms-3 OWASP #[em Juice Shop]
 
     .row.justify-content-between.mb-4
       .col-lg-8.order-last.order-lg-first(data-aos="fade-right")
         p Este proyecto de OWASP consiste en la exposición de una aplicación web moderna y sofisticada que usa tecnologías actuales como <b>Node.js, Express</b> y <b>Angular,</b> pero que presenta una gran cantidad de vulnerabilidades en materia de seguridad; esto con el fin de realizar capacitación en esta materia, demostraciones de fallos y concientización para la comunidad <em>software</em> en general. Además sirve también como ejemplo para las otras herramientas como <b>OWASP ZAP,</b> entre otras.
-        p <b>Juice Shop</b> contiene todas las vulnerabilidades del <b>OWASP Top Ten,</b> junto a otro gran número de falencias en temas de seguridad que se basan en todos los hallazgos encontrados en aplicaciones web en la comunidad global. Dentro de ella se pueden descubrir gran variedad de ejemplos y desafíos de piratería informática de dificultad variable que el usuario debe explotar; a medida que se avanza con estas dinámicas el progreso se aprecia en un tablero de puntuación.
+        p <b><em>Juice Shop</em></b> contiene todas las vulnerabilidades del <b>OWASP <em>Top Ten</em>,</b> junto a otro gran número de falencias en temas de seguridad que se basan en todos los hallazgos encontrados en aplicaciones web en la comunidad global. Dentro de ella se pueden descubrir gran variedad de ejemplos y desafíos de piratería informática de dificultad variable que el usuario debe explotar; a medida que se avanza con estas dinámicas el progreso se aprecia en un tablero de puntuación.
       .col-auto(data-aos="fade-down")
         .verticalLine.d-none.d-lg-block
       .col-lg-3.mb-4.mb-lg-0.order-first.order-lg-last(data-aos="fade-left")
@@ -184,12 +184,12 @@
           figure
             img.img-t.mx-auto(src='@/assets/curso/tema1/img06.svg', alt='')
         .col-10.col-md-12.col-lg-10(data-aos="fade-right")
-          p.m-0 Como se mencionó anteriormente esta herramienta le puede ayudar a los expertos en el área de seguridad y a los equipos de <em>software</em> como aplicación para adiestrarse y comprobar qué tan bien sus herramientas se adaptan a las interfaces de aplicaciones con gran cantidad de código <b>JavaScript</b> y <b>API REST</b>. (OWASP Juice Shop 2022).
+          p.m-0 Como se mencionó anteriormente esta herramienta le puede ayudar a los expertos en el área de seguridad y a los equipos de <em>software</em> como aplicación para adiestrarse y comprobar qué tan bien sus herramientas se adaptan a las interfaces de aplicaciones con gran cantidad de código <b>JavaScript</b> y <b>API REST</b>. (OWASP #[em Juice Shop] 2022).
 
     .row.mb-4(data-aos="fade-right")
       .col-lg-4.col-xl-5.col-xxl-4
         .bg_2.p-2
-          p.text-bold.m-0.ms-3 Demos herramientas Juice Shop y OWASP ZAP
+          p.text-bold.m-0.ms-3 Demos herramientas #[em Juice Shop] y OWASP ZAP
 
     p.mb-5 A continuación, en el siguiente video se presenta una demostración del uso de estas aplicaciones. Antes de empezar con las herramientas es necesario instalar algunos paquetes en el sistema referenciados en este documento (NodeJs, 2022) y (Git, 2022).
 
@@ -216,7 +216,7 @@
         figure
           img.img-t.m-auto(src='@/assets/curso/tema3/img14.svg', alt='')
       .col-lg-9(data-aos="fade-left")
-        p Actualmente es casi imposible para la sociedad pensar en su día a día sin la conexión al internet. La red mundial creció en las últimas décadas a un ritmo increíblemente rápido, lo que produjo un aumento sustancial en el tráfico de datos e información en la red, proveniente en gran medida de los servicios de transmisión, las redes sociales y las aplicaciones web en general (Pries, R, 2009).
+        p Actualmente es casi imposible para la sociedad pensar en su día a día sin la conexión a internet. La red mundial creció en las últimas décadas a un ritmo increíblemente rápido, lo que produjo un aumento sustancial en el tráfico de datos e información en la red, proveniente en gran medida de los servicios de transmisión, las redes sociales y las aplicaciones web en general (Pries, R, 2009).
         p Con este panorama las redes deben soportar un aumento en el promedio de carga de tráfico y un cambio errático en los patrones de los datos. Por tanto, las organizaciones y sus equipos de desarrollo necesitan contar con una supervisión y análisis efectivo de todo el tránsito de datos de información; debido a que detectar eventos externos, cuellos de botella, patrones erráticos, actividades maliciosas y/o procesos poco usuales en la red, permite anticiparse de manera oportuna y efectiva a potenciales problemas cuando ocurren o antes de que sucedan. De modo que, los servicios y/o aplicaciones no presenten interrupciones, indisponibilidad, intermitencia o suspensión durante ráfagas o durante largos periodos de tiempo (Xinyu, X., S. Mishra, 2009).
 
     .bg_1.p-4.mb-5
@@ -261,8 +261,9 @@
         .col-lg-7(data-aos="fade-left")
           .row
             .col-lg-12.m_left1
-              p.m_right1.mb-4 La herramienta en la interfaz provee una opción de filtrado por las distintas columnas que presenta directamente; como por ejemplo fuente, destino, protocolo, etc. Es importante detener la captura de paquetes, puesto que si no se realiza Wireshark seguirá analizando el tráfico en modo silencioso, incurriendo en consumo de memoria del sistema.
-              p.m_right1 Si se hace clic en cualquier paquete, se mostrará información detallada sobre el paquete capturado en la mitad inferior de vista.
+              .ms-5
+                p.m_right1.mb-4 La herramienta en la interfaz provee una opción de filtrado por las distintas columnas que presenta directamente; como por ejemplo fuente, destino, protocolo, etc. Es importante detener la captura de paquetes, puesto que si no se realiza Wireshark seguirá analizando el tráfico en modo silencioso, incurriendo en consumo de memoria del sistema.
+                p.m_right1 Si se hace clic en cualquier paquete, se mostrará información detallada sobre el paquete capturado en la mitad inferior de vista.
 
     .row.mb-4.m_top1(data-aos="fade-right")
       .col-auto
@@ -361,7 +362,7 @@
             li.ms-2.m-0
               i.fas.fa-check-circle
               span Filtro de vista.
-          p Cada uno de estos realiza una tarea única y la herramienta brinda al usuario la opción de descifrar datos con los protocolos Transport Layer Security (TLS) y Secure Sockets Layer (SSL).
+          p Cada uno de estos realiza una tarea única y la herramienta brinda al usuario la opción de descifrar datos con los protocolos #[em Transport Layer Security] (TLS) y #[em Secure Sockets Layer] (SSL).
 
       .col-lg-6.col-xl-5.col-xxl-6.mb-5.mb-lg-0
         figure

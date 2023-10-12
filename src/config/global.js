@@ -179,7 +179,7 @@ export default {
     },
     {
       tema:
-        'UskoKruM [UskoKruM2010]. (2021, agosto 19). Cómo Descargar e Instalar Node.js en Windows 10 | Explicación Sencilla. Youtube.',
+        'El marco de conocimiento de seguridad (<em>Security Knowledge Framework</em>)',
       referencia:
         'UskoKruM [UskoKruM2010]. (2021, agosto 19). Cómo Descargar e Instalar Node.js en Windows 10 | Explicación Sencilla. Youtube.',
       tipo: 'Video',
@@ -187,7 +187,7 @@ export default {
     },
     {
       tema:
-        'Eber, D. [donEber]. (2021, junio 17). Instalación de Git en Windows paso a paso | [2021| 2022]. Youtube.',
+        'El marco de conocimiento de seguridad (<em>Security Knowledge Framework</em>)',
       referencia:
         'Eber, D. [donEber]. (2021, junio 17). Instalación de Git en Windows paso a paso | [2021| 2022]. Youtube.',
       tipo: 'Video',
@@ -196,12 +196,12 @@ export default {
   ],
   glosario: [
     {
-      termino: 'API Endpoints',
+      termino: 'API <em>Endpoints</em>',
       significado:
         'Son las URLs de un API o un <em>backend</em> que responden a una petición.',
     },
     {
-      termino: 'API REST',
+      termino: 'API <em>REST</em>',
       significado:
         'Es una arquitectura que permite la interacción con los servicios web de RESTful.',
     },
@@ -273,7 +273,7 @@ export default {
     },
     {
       referencia:
-        'Pereira, C. P. T.-D. [DavidPereira]. (2021, marzo 4). Curso de Pentesting a Aplicaciones WEB (Video 1) OWASP Juice Shop. Youtube.',
+        'Pereira, C. P. T.-D. [DavidPereira]. (2021, marzo 4). Curso de Pentesting a Aplicaciones WEB (Video 1) OWASP <em>Juice Shop</em>. Youtube.',
       link: 'https://www.youtube.com/watch?v=6eAJ1dinee0',
     },
     {
@@ -308,7 +308,7 @@ export default {
     },
     {
       referencia:
-        'OWASP Juice Shop. [En línea] 15 de mayo de 2022. [Citado el: 15 de mayo de 2022.]',
+        'OWASP <em>Juice Shop</em>. [En línea] 15 de mayo de 2022. [Citado el: 15 de mayo de 2022.]',
       link: 'https://owasp.org/www-project-juice-shop/',
     },
     {
