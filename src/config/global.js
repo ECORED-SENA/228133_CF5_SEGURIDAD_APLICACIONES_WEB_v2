@@ -157,8 +157,8 @@ export default {
       tema:
         'El marco de conocimiento de seguridad (<em>Security Knowledge Framework</em>)',
       referencia:
-        'wstg: <em>The Web Security Testing Guide is a comprehensive Open Source guide to testing the security of web applications and web services</em>. (s/f).',
-      tipo: 'Repositorio',
+        ' WSTG: <em>The Web Security Testing Guide is a comprehensive Open Source guide to testing the security of web applications and web services</em>. (s/f).',
+      tipo: 'Web',
       link: 'https://github.com/OWASP/wstg',
     },
     {
