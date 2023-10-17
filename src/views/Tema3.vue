@@ -338,7 +338,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6.col-xl-5.col-xxl-6.mb-4.mb-lg-0
         figure
-          img.img-t.mx-auto(src='@/assets/curso/tema3/img27b.png')
+          img.img-t.mx-auto(src='@/assets/curso/tema3/img27b.png', style="min-width: 620px")
       .col-lg-4.col-xl-5.col-xxl-4.mt-4.mt-lg-0
         .bg_20.px-0.px-lg-4
           p.text-bold Organización de registros
