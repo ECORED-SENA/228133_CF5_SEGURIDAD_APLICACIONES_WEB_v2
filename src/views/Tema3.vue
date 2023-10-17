@@ -320,7 +320,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6.mb-5.mb-lg-0
         figure
-          img.img-t.mx-auto(src='@/assets/curso/tema3/img25.png')
+          img.img-t.mx-auto(src='@/assets/curso/tema3/img25c.png', style="max-width: 620px")
       .col-lg-4.mt-4.mt-lg-0
         .bg_18.pe-0.pe-lg-5.mb-5.mb-lg-0
           p.text-bold Características de Microsoft Message Analyzer
@@ -333,12 +333,12 @@
           p En esta figura se detalla el flujo a un alto nivel de trabajo presentando los mensajes de varios archivos de registro, ordenados y clasificados por tiempo, basado en la información de la sesión en curso, brindando detalles sobre dicho mensaje a través de la ventana de herramientas.
       .col-lg-6.mt-5.mt-lg-0
         figure
-          img.img-t.mx-auto(src='@/assets/curso/tema3/img26.png')
+          img.img-t.mx-auto(src='@/assets/curso/tema3/img26b.png')
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6.col-xl-5.col-xxl-6.mb-4.mb-lg-0
         figure
-          img.img-t.mx-auto(src='@/assets/curso/tema3/img27.png')
+          img.img-t.mx-auto(src='@/assets/curso/tema3/img27b.png')
       .col-lg-4.col-xl-5.col-xxl-4.mt-4.mt-lg-0
         .bg_20.px-0.px-lg-4
           p.text-bold Organización de registros
@@ -366,7 +366,7 @@
 
       .col-lg-6.col-xl-5.col-xxl-6.mb-5.mb-lg-0
         figure
-          img.img-t.mx-auto(src='@/assets/curso/tema3/img28.png')
+          img.img-t.mx-auto(src='@/assets/curso/tema3/img28b.png')
 
     .row.mb-4(data-aos="fade-right")
       .col-lg-4.col-xl-5.col-xxl-4
@@ -391,18 +391,18 @@
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").color3
       .row.justify-content-center(titulo="Interfaz de usuario accedida desde la web")
-        .col-12.col-lg-8.mb-4.mb-md-0
+        .col-12.col-xl-7.mb-4.mb-md-0
           p En la imagen se precisa la interfaz de usuario accedida desde la web con gráficos de datos en tiempo real; esta interfaz es alimentada por los sensores HTTP que constantemente monitorean el tiempo de respuesta, sino hay respuesta o se recibe un estado 404, dicho sensor entra en estado de inactividad. La herramienta presenta los <em>bytes</em> de entrada, el tiempo de descarga, la velocidad y el tiempo del primer paquete entrante para cada uno de los sensores; con lo cual, el administrador puede establecer ciertos parámetros a modo de umbral que disparan las alarmas previstas. La herramienta presenta al usuario la posibilidad de descargar informes detallados en formato HTML o en PDF acorde a los parámetros seleccionados.
-        .col-12.col-lg-3
+        .col-12.col-xl-5
           figure
-            img.img-t.m-auto(src='@/assets/curso/tema3/1.png', alt='')
+            img.img-t.m-auto(src='@/assets/curso/tema3/imgPRT1.png', alt='')
 
       .row.justify-content-center(titulo="Sensores a partir de transacciones")
-        .col-12.col-lg-8.mb-4.mb-md-0
+        .col-12.col-xl-7.mb-4.mb-md-0
           p Esta imagen presenta algunos de los sensores que ofrece la herramienta permitiendo a los administradores de la red simular una transacción completa en su aplicación web mediante una serie de hasta 10 enlaces que ayudan a comprobar la accesibilidad y el contenido específico de cada una de estas páginas. PRTG ofrece a los usuarios analizar el flujo completo de una aplicación ejecutada en un servidor incluyendo servicios específicos como: monitoreo pasivo de sensores, rendimiento y tiempo de conexión TCP entre otros (PRTG, 2022).
-        .col-12.col-lg-3
+        .col-12.col-xl-5
           figure
-            img.img-t.m-auto(src='@/assets/curso/tema3/2.png', alt='')
+            img.img-t.m-auto(src='@/assets/curso/tema3/imgPRT3.png', alt='')
 
     .bg_22.mb-5.mb-lg-0
       .row.align-items-center.mb-4
